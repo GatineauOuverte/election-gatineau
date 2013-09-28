@@ -1,1 +1,613 @@
-{ "ville":{"nom": "Gatineau","region": "Outaouais","nb_electeur": "0","arrondissements": [],"postes": [{"id": "194100","no": "0","nom": "","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "M","candidats":[{"id": "5211","nom": "Bureau","prenom": "Marc","sexe": "m","sortant": "1","parti": "","etat": "CAN","nb_vote": "0"},{"id": "3473","nom": "Pedneaud-Jobin","prenom": "Maxime","sexe": "m","sortant": "0","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"}]},{"id": "194101","no": "1","nom": "d'Aylmer","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "4987","nom": "Lacasse","prenom": "Josée","sexe": "f","sortant": "0","parti": "","etat": "CAN","nb_vote": "0"},{"id": "2492","nom": "Psenak","prenom": "Stefan","sexe": "m","sortant": "1","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"}]},{"id": "194102","no": "2","nom": "de Lucerne","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "1203","nom": "Duggan","prenom": "Mike","sexe": "m","sortant": "0","parti": "","etat": "CAN","nb_vote": "0"},{"id": "3455","nom": "Laframboise","prenom": "André","sexe": "m","sortant": "1","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"},{"id": "5075","nom": "Turpin","prenom": "Claude","sexe": "m","sortant": "0","parti": "","etat": "CAN","nb_vote": "0"}]},{"id": "194103","no": "3","nom": "de Deschênes","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "631","nom": "Bégin","prenom": "Richard M.","sexe": "m","sortant": "0","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"},{"id": "3608","nom": "Riel","prenom": "Alain","sexe": "m","sortant": "1","parti": "","etat": "CAN","nb_vote": "0"}]},{"id": "194104","no": "4","nom": "du Plateau","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "2960","nom": "Léveillé","prenom": "François","sexe": "m","sortant": "0","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"},{"id": "2322","nom": "Tremblay","prenom": "Maxime","sexe": "m","sortant": "1","parti": "","etat": "CAN","nb_vote": "0"}]},{"id": "194105","no": "5","nom": "du Manoir-des-Trembles-Val-Tétreau","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "3400","nom": "Blondin","prenom": "Jocelyn","sexe": "m","sortant": "0","parti": "","etat": "CAN","nb_vote": "0"},{"id": "5090","nom": "Meilleur","prenom": "Christian","sexe": "m","sortant": "0","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"}]},{"id": "194106","no": "6","nom": "de l'Orée-du-Parc","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "2531","nom": "Apollon","prenom": "Mireille","sexe": "f","sortant": "1","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"},{"id": "3009","nom": "Bonneville","prenom": "Bruno","sexe": "m","sortant": "0","parti": "","etat": "CAN","nb_vote": "0"}]},{"id": "194107","no": "7","nom": "de Parc-de-la-Montagne-Saint-Raymond","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "662","nom": "Boudrias","prenom": "Louise","sexe": "f","sortant": "0","parti": "","etat": "CAN","nb_vote": "0"},{"id": "3104","nom": "Corbo","prenom": "Adrian","sexe": "m","sortant": "0","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"}]},{"id": "194108","no": "8","nom": "de Hull-Wright","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "4641","nom": "Laferrière","prenom": "Denise","sexe": "f","sortant": "1","parti": "","etat": "CAN","nb_vote": "0"},{"id": "1328","nom": "Miron","prenom": "Isabelle","sexe": "f","sortant": "0","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"}]},{"id": "194109","no": "9","nom": "de Limbour","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "633","nom": "Aboutanos","prenom": "Wassim","sexe": "m","sortant": "0","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"},{"id": "5026","nom": "Champagne","prenom": "Nicole","sexe": "f","sortant": "1","parti": "","etat": "CAN","nb_vote": "0"},{"id": "2370","nom": "Tessier","prenom": "Cédric","sexe": "m","sortant": "0","parti": "","etat": "CAN","nb_vote": "0"}]},{"id": "194110","no": "10","nom": "de Touraine","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "2829","nom": "Fortin-Bordeleau","prenom": "Alexandre","sexe": "m","sortant": "0","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"},{"id": "310","nom": "Tassé","prenom": "Denis","sexe": "m","sortant": "1","parti": "","etat": "CAN","nb_vote": "0"}]},{"id": "194111","no": "11","nom": "de Pointe-Gatineau","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "2900","nom": "Laurin","prenom": "Pierre","sexe": "m","sortant": "0","parti": "","etat": "CAN","nb_vote": "0"},{"id": "2624","nom": "Nadeau","prenom": "Myriam","sexe": "f","sortant": "0","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"}]},{"id": "194112","no": "12","nom": "du Carrefour-de-l'Hôpital","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "1483","nom": "Benyelles","prenom": "Nawel","sexe": "f","sortant": "0","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"},{"id": "1662","nom": "Carpentier","prenom": "Gilles","sexe": "m","sortant": "0","parti": "","etat": "CAN","nb_vote": "0"}]},{"id": "194113","no": "13","nom": "du Versant","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "1630","nom": "Champagne","prenom": "Daniel","sexe": "m","sortant": "0","parti": "","etat": "CAN","nb_vote": "0"},{"id": "1094","nom": "Ouimet","prenom": "Geneviève","sexe": "f","sortant": "0","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"}]},{"id": "194114","no": "14","nom": "de Bellevue","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "4334","nom": "Goneau","prenom": "Sylvie","sexe": "f","sortant": "1","parti": "","etat": "CAN","nb_vote": "0"},{"id": "1956","nom": "Violy","prenom": "Christian","sexe": "m","sortant": "0","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"}]},{"id": "194115","no": "15","nom": "du Lac-Beauchamp","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "1059","nom": "Ahmimed","prenom": "Chakib","sexe": "m","sortant": "0","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"},{"id": "2530","nom": "Lauzon","prenom": "Stéphane","sexe": "m","sortant": "1","parti": "","etat": "CAN","nb_vote": "0"}]},{"id": "194116","no": "16","nom": "de la Rivière-Blanche","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "1890","nom": "Lessard","prenom": "Jean","sexe": "m","sortant": "0","parti": "","etat": "CAN","nb_vote": "0"},{"id": "2019","nom": "Noble","prenom": "Jason S.","sexe": "m","sortant": "0","parti": "","etat": "CAN","nb_vote": "0"},{"id": "880","nom": "Parent-Stuart","prenom": "Francine","sexe": "f","sortant": "0","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"}]},{"id": "194117","no": "17","nom": "de Masson-Angers","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "762","nom": "Frenette","prenom": "Roland Jr.","sexe": "m","sortant": "0","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"},{"id": "4794","nom": "Montreuil","prenom": "Luc","sexe": "m","sortant": "1","parti": "","etat": "CAN","nb_vote": "0"}]},{"id": "195078","no": "18","nom": "de Buckingham","id_arrondissement": "","nb_votes_rejet": "0","type_poste": "C","candidats":[{"id": "2838","nom": "Hébert","prenom": "Yan","sexe": "m","sortant": "0","parti": "","etat": "CAN","nb_vote": "0"},{"id": "1384","nom": "Lajeunesse","prenom": "Martin","sexe": "m","sortant": "0","parti": "Action Gatineau","etat": "CAN","nb_vote": "0"}]}]},"saisie_termine":"non","maj":"2013-09-27 15:37"}
+{
+  "maj": "2013-09-27 15:37",
+  "saisie_termine": "non",
+  "ville": {
+    "arrondissements": [
+    ],
+    "nb_electeur": "0",
+    "nom": "Gatineau",
+    "postes": [
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "5211",
+            "nb_vote": "0",
+            "nom": "Bureau",
+            "parti": "",
+            "prenom": "Marc",
+            "sexe": "m",
+            "sortant": "1"
+          },
+          {
+            "etat": "CAN",
+            "id": "3473",
+            "nb_vote": "0",
+            "nom": "Pedneaud-Jobin",
+            "parti": "Action Gatineau",
+            "prenom": "Maxime",
+            "sexe": "m",
+            "sortant": "0"
+          }
+        ],
+        "id": "194100",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "0",
+        "nom": "",
+        "type_poste": "M"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "4987",
+            "nb_vote": "0",
+            "nom": "Lacasse",
+            "parti": "",
+            "prenom": "Josée",
+            "sexe": "f",
+            "sortant": "0"
+          },
+          {
+            "etat": "CAN",
+            "id": "2492",
+            "nb_vote": "0",
+            "nom": "Psenak",
+            "parti": "Action Gatineau",
+            "prenom": "Stefan",
+            "sexe": "m",
+            "sortant": "1"
+          }
+        ],
+        "id": "194101",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "1",
+        "nom": "d'Aylmer",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "1203",
+            "nb_vote": "0",
+            "nom": "Duggan",
+            "parti": "",
+            "prenom": "Mike",
+            "sexe": "m",
+            "sortant": "0"
+          },
+          {
+            "etat": "CAN",
+            "id": "3455",
+            "nb_vote": "0",
+            "nom": "Laframboise",
+            "parti": "Action Gatineau",
+            "prenom": "André",
+            "sexe": "m",
+            "sortant": "1"
+          },
+          {
+            "etat": "CAN",
+            "id": "5075",
+            "nb_vote": "0",
+            "nom": "Turpin",
+            "parti": "",
+            "prenom": "Claude",
+            "sexe": "m",
+            "sortant": "0"
+          }
+        ],
+        "id": "194102",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "2",
+        "nom": "de Lucerne",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "631",
+            "nb_vote": "0",
+            "nom": "Bégin",
+            "parti": "Action Gatineau",
+            "prenom": "Richard M.",
+            "sexe": "m",
+            "sortant": "0"
+          },
+          {
+            "etat": "CAN",
+            "id": "3608",
+            "nb_vote": "0",
+            "nom": "Riel",
+            "parti": "",
+            "prenom": "Alain",
+            "sexe": "m",
+            "sortant": "1"
+          }
+        ],
+        "id": "194103",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "3",
+        "nom": "de Deschênes",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "2960",
+            "nb_vote": "0",
+            "nom": "Léveillé",
+            "parti": "Action Gatineau",
+            "prenom": "François",
+            "sexe": "m",
+            "sortant": "0"
+          },
+          {
+            "etat": "CAN",
+            "id": "2322",
+            "nb_vote": "0",
+            "nom": "Tremblay",
+            "parti": "",
+            "prenom": "Maxime",
+            "sexe": "m",
+            "sortant": "1"
+          }
+        ],
+        "id": "194104",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "4",
+        "nom": "du Plateau",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "3400",
+            "nb_vote": "0",
+            "nom": "Blondin",
+            "parti": "",
+            "prenom": "Jocelyn",
+            "sexe": "m",
+            "sortant": "0"
+          },
+          {
+            "etat": "CAN",
+            "id": "5090",
+            "nb_vote": "0",
+            "nom": "Meilleur",
+            "parti": "Action Gatineau",
+            "prenom": "Christian",
+            "sexe": "m",
+            "sortant": "0"
+          }
+        ],
+        "id": "194105",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "5",
+        "nom": "du Manoir-des-Trembles-Val-Tétreau",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "2531",
+            "nb_vote": "0",
+            "nom": "Apollon",
+            "parti": "Action Gatineau",
+            "prenom": "Mireille",
+            "sexe": "f",
+            "sortant": "1"
+          },
+          {
+            "etat": "CAN",
+            "id": "3009",
+            "nb_vote": "0",
+            "nom": "Bonneville",
+            "parti": "",
+            "prenom": "Bruno",
+            "sexe": "m",
+            "sortant": "0"
+          }
+        ],
+        "id": "194106",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "6",
+        "nom": "de l'Orée-du-Parc",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "662",
+            "nb_vote": "0",
+            "nom": "Boudrias",
+            "parti": "",
+            "prenom": "Louise",
+            "sexe": "f",
+            "sortant": "0"
+          },
+          {
+            "etat": "CAN",
+            "id": "3104",
+            "nb_vote": "0",
+            "nom": "Corbo",
+            "parti": "Action Gatineau",
+            "prenom": "Adrian",
+            "sexe": "m",
+            "sortant": "0"
+          }
+        ],
+        "id": "194107",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "7",
+        "nom": "de Parc-de-la-Montagne-Saint-Raymond",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "4641",
+            "nb_vote": "0",
+            "nom": "Laferrière",
+            "parti": "",
+            "prenom": "Denise",
+            "sexe": "f",
+            "sortant": "1"
+          },
+          {
+            "etat": "CAN",
+            "id": "1328",
+            "nb_vote": "0",
+            "nom": "Miron",
+            "parti": "Action Gatineau",
+            "prenom": "Isabelle",
+            "sexe": "f",
+            "sortant": "0"
+          }
+        ],
+        "id": "194108",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "8",
+        "nom": "de Hull-Wright",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "633",
+            "nb_vote": "0",
+            "nom": "Aboutanos",
+            "parti": "Action Gatineau",
+            "prenom": "Wassim",
+            "sexe": "m",
+            "sortant": "0"
+          },
+          {
+            "etat": "CAN",
+            "id": "5026",
+            "nb_vote": "0",
+            "nom": "Champagne",
+            "parti": "",
+            "prenom": "Nicole",
+            "sexe": "f",
+            "sortant": "1"
+          },
+          {
+            "etat": "CAN",
+            "id": "2370",
+            "nb_vote": "0",
+            "nom": "Tessier",
+            "parti": "",
+            "prenom": "Cédric",
+            "sexe": "m",
+            "sortant": "0"
+          }
+        ],
+        "id": "194109",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "9",
+        "nom": "de Limbour",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "2829",
+            "nb_vote": "0",
+            "nom": "Fortin-Bordeleau",
+            "parti": "Action Gatineau",
+            "prenom": "Alexandre",
+            "sexe": "m",
+            "sortant": "0"
+          },
+          {
+            "etat": "CAN",
+            "id": "310",
+            "nb_vote": "0",
+            "nom": "Tassé",
+            "parti": "",
+            "prenom": "Denis",
+            "sexe": "m",
+            "sortant": "1"
+          }
+        ],
+        "id": "194110",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "10",
+        "nom": "de Touraine",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "2900",
+            "nb_vote": "0",
+            "nom": "Laurin",
+            "parti": "",
+            "prenom": "Pierre",
+            "sexe": "m",
+            "sortant": "0"
+          },
+          {
+            "etat": "CAN",
+            "id": "2624",
+            "nb_vote": "0",
+            "nom": "Nadeau",
+            "parti": "Action Gatineau",
+            "prenom": "Myriam",
+            "sexe": "f",
+            "sortant": "0"
+          }
+        ],
+        "id": "194111",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "11",
+        "nom": "de Pointe-Gatineau",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "1483",
+            "nb_vote": "0",
+            "nom": "Benyelles",
+            "parti": "Action Gatineau",
+            "prenom": "Nawel",
+            "sexe": "f",
+            "sortant": "0"
+          },
+          {
+            "etat": "CAN",
+            "id": "1662",
+            "nb_vote": "0",
+            "nom": "Carpentier",
+            "parti": "",
+            "prenom": "Gilles",
+            "sexe": "m",
+            "sortant": "0"
+          }
+        ],
+        "id": "194112",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "12",
+        "nom": "du Carrefour-de-l'Hôpital",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "1630",
+            "nb_vote": "0",
+            "nom": "Champagne",
+            "parti": "",
+            "prenom": "Daniel",
+            "sexe": "m",
+            "sortant": "0"
+          },
+          {
+            "etat": "CAN",
+            "id": "1094",
+            "nb_vote": "0",
+            "nom": "Ouimet",
+            "parti": "Action Gatineau",
+            "prenom": "Geneviève",
+            "sexe": "f",
+            "sortant": "0"
+          }
+        ],
+        "id": "194113",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "13",
+        "nom": "du Versant",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "4334",
+            "nb_vote": "0",
+            "nom": "Goneau",
+            "parti": "",
+            "prenom": "Sylvie",
+            "sexe": "f",
+            "sortant": "1"
+          },
+          {
+            "etat": "CAN",
+            "id": "1956",
+            "nb_vote": "0",
+            "nom": "Violy",
+            "parti": "Action Gatineau",
+            "prenom": "Christian",
+            "sexe": "m",
+            "sortant": "0"
+          }
+        ],
+        "id": "194114",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "14",
+        "nom": "de Bellevue",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "1059",
+            "nb_vote": "0",
+            "nom": "Ahmimed",
+            "parti": "Action Gatineau",
+            "prenom": "Chakib",
+            "sexe": "m",
+            "sortant": "0"
+          },
+          {
+            "etat": "CAN",
+            "id": "2530",
+            "nb_vote": "0",
+            "nom": "Lauzon",
+            "parti": "",
+            "prenom": "Stéphane",
+            "sexe": "m",
+            "sortant": "1"
+          }
+        ],
+        "id": "194115",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "15",
+        "nom": "du Lac-Beauchamp",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "1890",
+            "nb_vote": "0",
+            "nom": "Lessard",
+            "parti": "",
+            "prenom": "Jean",
+            "sexe": "m",
+            "sortant": "0"
+          },
+          {
+            "etat": "CAN",
+            "id": "2019",
+            "nb_vote": "0",
+            "nom": "Noble",
+            "parti": "",
+            "prenom": "Jason S.",
+            "sexe": "m",
+            "sortant": "0"
+          },
+          {
+            "etat": "CAN",
+            "id": "880",
+            "nb_vote": "0",
+            "nom": "Parent-Stuart",
+            "parti": "Action Gatineau",
+            "prenom": "Francine",
+            "sexe": "f",
+            "sortant": "0"
+          }
+        ],
+        "id": "194116",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "16",
+        "nom": "de la Rivière-Blanche",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "762",
+            "nb_vote": "0",
+            "nom": "Frenette",
+            "parti": "Action Gatineau",
+            "prenom": "Roland Jr.",
+            "sexe": "m",
+            "sortant": "0"
+          },
+          {
+            "etat": "CAN",
+            "id": "4794",
+            "nb_vote": "0",
+            "nom": "Montreuil",
+            "parti": "",
+            "prenom": "Luc",
+            "sexe": "m",
+            "sortant": "1"
+          }
+        ],
+        "id": "194117",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "17",
+        "nom": "de Masson-Angers",
+        "type_poste": "C"
+      },
+      {
+        "candidats": [
+          {
+            "etat": "CAN",
+            "id": "2838",
+            "nb_vote": "0",
+            "nom": "Hébert",
+            "parti": "",
+            "prenom": "Yan",
+            "sexe": "m",
+            "sortant": "0"
+          },
+          {
+            "etat": "CAN",
+            "id": "1384",
+            "nb_vote": "0",
+            "nom": "Lajeunesse",
+            "parti": "Action Gatineau",
+            "prenom": "Martin",
+            "sexe": "m",
+            "sortant": "0"
+          }
+        ],
+        "id": "195078",
+        "id_arrondissement": "",
+        "nb_votes_rejet": "0",
+        "no": "18",
+        "nom": "de Buckingham",
+        "type_poste": "C"
+      }
+    ],
+    "region": "Outaouais"
+  }
+}
