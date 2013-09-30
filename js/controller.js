@@ -32,8 +32,7 @@ function ElectionCtrl($scope,$http) {
     });
   };
 
-  setTimeout($scope.refresh,1000);
-  // $scope.refresh();
+  $scope.refresh();
 
 }
 
