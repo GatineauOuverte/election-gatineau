@@ -6,6 +6,11 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+/*added ng-cloak style to hide flash*/
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */

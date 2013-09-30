@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html ng-app class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,20 +42,38 @@
 
   <div class="container">
 
-    <a class="btn btn-success" id="refreshBtn" href="#">
-      <i class="icon-repeat"></i> Referesh
-    </a>
+    <div ng-controller="ElectionCtrl" class="ng-cloak">
 
-    <div id="output"></div>
-    
+      <h2>{{data.ville.nom}}</h2>
+      <a class="btn btn-success" ng-click="refresh()" href="#">
+        <i ng-class="{true:'icon-refresh icon-spin', false:'icon-repeat'}[refreshing]"></i> Refresh
+      </a>
+      <label>Recherche:</label>
+      <input type="text" ng-model="searchterm" placeholder="Candidat / Secteur">
+      <span class="text-muted">{{data.maj}}</span>
+      <hr>
+      <ul>
+        <li ng-repeat="poste in data.ville.postes">
+          {{poste.type_poste }} {{poste.id}} ({{poste.nom}})
+          <ul>
+            <li ng-repeat="candidat in poste.candidats">
+              {{candidat.prenom }} {{candidat.nom}} ({{candidat.parti}})
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+
   </div> <!-- /container -->
 
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.min.js"></script>
+  <script src="js/controller.js"></script>
 
-      <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    </body>
-    </html>
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+</body>
+</html>
