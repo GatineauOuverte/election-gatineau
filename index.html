@@ -44,13 +44,13 @@
 
     <div ng-controller="ElectionCtrl" class="ng-cloak">
 
-      <h2>{{data.ville.nom}}</h2>
+      <h2>Elections municipales {{data.ville.nom}} 2013</h2>
       <a class="btn btn-success" ng-click="refresh()" href="#">
         <i ng-class="{true:'icon-refresh icon-spin', false:'icon-repeat'}[refreshing]"></i> Refresh
       </a>
       <label>Recherche:</label>
       <input type="text" ng-model="searchText" placeholder="Candidat / Secteur">
-      <span class="text-muted">{{data.maj}}</span>
+      <div class="text-muted"><small>Date de mise à jour: {{data.maj}}</small></div>
       <hr>
 
       <ul class="media-list">
