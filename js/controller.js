@@ -33,7 +33,18 @@ function ElectionCtrl($scope,$http) {
     });
   };
 
+  // invoke refresh on creation
   $scope.refresh();
+
+  // use the external library latinise: should be a module
+  $scope.c7nComparator = function(expected, actual){
+    console.log('- =?=',expected,actual);
+    // default case insensitive comparator, reimplemented for collation (c7n) neutralization
+    c7n_actual = (''+actual).latinise().toLowerCase();
+    c7n_expected = (''+expected).latinise().toLowerCase();
+    //console.log(expected,c7n_expected,'=?=',c7n_actual,actual);
+    return (c7n_expected).indexOf(c7n_actual) > -1
+  }
 
   // extract photos from http://www.gatineau.ca/page.asp?p=la_ville/election_municipale_2013/districts_electoraux
   // a=[];Array.prototype.slice.call(document.querySelectorAll('img[width="100"]')).forEach(function(n){src=n.getAttribute('src'); if (src!='silhouette.jpg') a.push(src)})
@@ -48,34 +59,6 @@ function ElectionCtrl($scope,$http) {
     photo = photo || 'silhouette.jpg'
     return base+photo;
 
-    // how I mapped it....
-    var nom = candidat.nom;//+' '+candidat.prenom;
-    nom = nom.toLowerCase().replace(/[ -]/g,'_').replace(/[èé]/gi,'e')
-    // console.log(nom);
-    photos.forEach(function(ph){
-      if (ph.indexOf(nom)!== -1) {
-        console.log(candidat,ph);
-        photoById[candidat.id]=ph;
-        photoByName[candidat.nom]=ph;
-      }
-      console.log(JSON.stringify(photoById));
-      console.log(JSON.stringify(photoByName));
-    });
   }
 
 }
-
-
-  //   <div class="panel panel-default"><div class="panel-heading">
-  //     <h4 class="panel-title">
-  //       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-  //         Collapsible Group Item #1
-  //       </a>
-  //     </h4>
-  //   </div>
-  //   <div id="collapseOne" class="panel-collapse collapse in">
-  //     <div class="panel-body">
-  //       Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-  //     </div>
-  //   </div>
-  // </div>
