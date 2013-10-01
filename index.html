@@ -49,9 +49,35 @@
         <i ng-class="{true:'icon-refresh icon-spin', false:'icon-repeat'}[refreshing]"></i> Refresh
       </a>
       <label>Recherche:</label>
-      <input type="text" ng-model="searchterm" placeholder="Candidat / Secteur">
+      <input type="text" ng-model="searchText" placeholder="Candidat / Secteur">
       <span class="text-muted">{{data.maj}}</span>
       <hr>
+
+      <ul class="media-list">
+        <li class="media" ng-repeat="poste in data.ville.postes | filter:searchText"">
+          <a class="pull-left" href="#">
+            <img class="media-object img-rounded" src="http://placehold.it/64x64" alt="...">
+          </a>
+          <div class="media-body">
+            <h4 class="media-heading"> {{poste.type_poste=='M' ? 'Mairie ' : 'Arrondissement '+poste.nom}}</h4>
+            <!-- {{poste.type_poste }} {{poste.id}} -->
+            <p class="text-muted">Nombre de vote rejetés: {{poste.nb_votes_rejet}}</p>
+            <div class="media" ng-repeat="candidat in poste.candidats">
+              <a class="pull-left" href="#">
+                <img class="media-object img-circle" src="http://placehold.it/64x64" alt="...">
+              </a>
+              <div class="media-body">
+                <h5 class="media-heading">{{candidat.prenom }} {{candidat.nom}} 
+                  <span ng-if="candidat.parti">({{candidat.parti}})</span>
+                </h5>
+                <p class="text-muted">Nombre de votes: {{candidat.nb_vote}}</p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+<!-- old ul/li markup
       <ul>
         <li ng-repeat="poste in data.ville.postes">
           {{poste.type_poste }} {{poste.id}} ({{poste.nom}})
@@ -62,7 +88,7 @@
           </ul>
         </li>
       </ul>
-
+ -->
     </div>
 
   </div> <!-- /container -->
