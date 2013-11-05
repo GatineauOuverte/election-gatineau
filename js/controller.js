@@ -35,6 +35,9 @@ function ElectionCtrl($scope,$http) {
 
   // invoke refresh on creation
   $scope.refresh();
+  setInterval(function(){
+    $scope.refresh();
+  },30000);
 
   // use the external library latinise: should be a module
   $scope.c7nComparator = function(expected, actual){
